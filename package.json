@@ -1,0 +1,16 @@
+{
+    "name": "javascript-project",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "prettier": "3.9.6",
+        "vite": "^8.2.2"
+    }
+}
