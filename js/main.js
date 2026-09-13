@@ -1,13 +1,13 @@
-// import { add, sub } from "./math";
-// import * as math from "./math";
-// import { add as addition, sub as subtraction } from "./math";
+// import { add, sub } from "./module/math";
+// import * as math from "./module/math";
+// import { add as addition, sub as subtraction } from "./module/math";
 
-// import User from "./user";
+// import User from "./module/user";
 
-import { add, sub, User } from "./index";
+import { add, sub, User } from "./module/index";
 
-import "./default-init";
-import { config } from "./config";
+import "./module/default-init";
+import { config } from "./module/config";
 
 console.log(`1 + 2 = ${add(1, 2)}`);
 console.log(`5 - 2 = ${sub(5, 2)}`);
